@@ -1,0 +1,140 @@
+body{
+    background-color: #222;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenedor{
+    position: relative;
+    text-align: center;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
+.ruleta{
+    width: 450px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.centroRuleta{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 200px;
+    top: 120px;
+}
+
+img{
+    width: 100%;
+}
+
+.barraContenedora{
+    background-color: #000;
+    width: 250px;
+    height: 20px;
+    border-radius: 12px;
+    padding: 4px;
+    margin: 15px auto 10px;
+}
+
+.barra{
+    border-radius: 8px;
+    height: 20px;
+    width: 0;
+    background-color: #fff500;
+    animation-name: animacionBarra;
+    animation-duration: .8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.barraPausada{
+    animation-play-state: paused;
+}
+
+@keyframes animacionBarra{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0;
+    }
+}
+
+.premio{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #fff500;
+}
+
+.boton{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+@media (max-width:700px){
+    .ruleta{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .centroRuleta{
+        width: 180px;
+        top: 110px;
+    }
+    
+    .barraContenedora{
+        width: 250px;
+        height: 18px;
+        margin: 15px auto 10px;
+    }
+    
+    .barra{
+        height: 18px;
+    }
+    
+    .premio{
+        font-size: 18px;
+    }
+    
+    .boton{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:400px){
+    .ruleta{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .centroRuleta{
+        width: 150px;
+        top: 100px;
+    }
+}
