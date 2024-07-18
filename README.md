@@ -1,4 +1,4 @@
-# Ruleta e Descuentos
+# Ruleta de Descuentos
 
 ## Descripción
 Éste proyecto es una aplicación web interactiva construida con React. Permite a los usuarios girar una ruleta para obtener diferentes descuentos. Es una herramienta divertida y atractiva para aumentar el compromiso del cliente y fomentar las ventas.
