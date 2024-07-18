@@ -42,7 +42,7 @@ function App(){
             <div className="contenedor">
                 <div className="ruleta"
                     style = {{
-                        backgroundImage: `url('./assets/ruleta.png')`,
+                        backgroundImage: `url('assets/ruleta.png')`,
                         transform: `rotate(${rotacion}deg)`,
                         transition: "transform 10s cubic-bezier(0.2, 0.8, 0.7, 0.99)",
                     }}
@@ -59,7 +59,7 @@ function App(){
                 <button className="boton" onClick={lanzar}>GIRAR</button>
                 }
                 <div className="centroRuleta">
-                    <img src="./assets/centro.png"/>
+                    <img src="assets/centro.png"/>
                 </div>
             </div>
         </>
