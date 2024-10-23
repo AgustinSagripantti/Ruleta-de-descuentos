@@ -9,43 +9,11 @@
 - JavaScript
 - HTML
 
-## Instalación
-Para instalar y ejecutar esta aplicación localmente, sigue estos pasos:
-
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/tu_usuario/ruleta-de-descuentos.git
-2. Navega al directorio del proyecto:
-   ```sh
-   cd ruleta-de-descuentos
-3. Instala las dependencias:
-   ```sh
-   npm install
-4. Inicia la aplicación:
-   ```sh
-   npm run dev
-
-## Uso
-Para utilizar la Ruleta de Descuentos, abre http://localhost:5173/ en tu navegador. Aquí puedes girar la ruleta para obtener diferentes descuentos.
-
-### Características
-- Girar la ruleta para obtener descuentos aleatorios.
-- Interfaz de usuario atractiva y responsiva.
-- Animaciones fluidas y efectos visuales.
+## Conclusión
+El desarrollo de esta aplicación puso a prueba mis habilidades de frontend, el manejo de lógica con la libreria REACT y animaciones y transiciones con CSS. Por otro lado, el diseño de la ruleta me permitió explotar mi creatividad al máximo, además de aprender sobre el manejo del programa de diseño CANVA. 
   
 ## Contribución
-Las contribuciones son bienvenidas. Para contribuir, sigue estos pasos:
-
-1. Realiza un fork de este repositorio.
-2. Crea una nueva rama:
-   ```sh
-   git checkout -b nombre-de-tu-rama
-3. Realiza tus cambios y haz un commit:
-   ```sh
-   git commit -m "Descripción de los cambios"
-4. Realiza tus cambios y haz un commit:
-   ```sh
-   git push origin nombre-de-tu-rama
+Sientase libre de realizar su PR. Todas las contribuciones son bienvenidas. 
 
 ## Contacto
 Agustin Sagripantti - asagripantti@gmail.com
